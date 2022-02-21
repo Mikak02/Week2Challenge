@@ -12,4 +12,5 @@ This project was created to showcase a variety of skills possessed (or hopefully
 
 ## Screenshot
 ![Screenshot of website]
-(/assets/images/screenshot.png)
+(/assets/images/screenshot.png
+=250x100)
