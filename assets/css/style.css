@@ -59,13 +59,12 @@ header nav ul li a {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    border: 10px solid black;
+    border: 10px solid var(--main-color);
     background-image: url(../images/heroimage.png);
 }
 
 .sub-section {
     display: flex;
-    flex-wrap: no-wrap;
 }
 
 .right {
