@@ -60,6 +60,7 @@ header nav ul li a {
     justify-content: flex-end;
     flex-wrap: wrap;
     border: 10px solid black;
+    background-image: url(../images/heroimage.png);
 }
 
 .sub-section {
@@ -77,11 +78,13 @@ header nav ul li a {
     margin: 20px 10px 10px 100px;
 }
 
-.box1 {
-    color: var(--main-color);
-    background-image: url(../images/Runbuddy.png);
+.box img {
+    object-fit: cover;
+    max-height: 100px;
+    max-width: 400px;
+    border: solid 5px var(--main-color);
 }
 
-box1:hover {
-    color: var(--secondary-color)
+.box img:hover {
+    border: solid 5px var(--secondary-color);
 }
